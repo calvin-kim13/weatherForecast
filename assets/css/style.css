@@ -20,9 +20,8 @@ header {
     height: 80vh;
 }
 
-h3 {
-    font-weight: bolder;
-    margin: 1rem 1rem;
+#current-headers {
+    font-weight: bold;
     display: flex;
 }
 
