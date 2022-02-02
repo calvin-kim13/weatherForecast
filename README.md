@@ -24,5 +24,5 @@ The main skills used were HTML, CSS, and JavaScript.
 - GitHub:
     - https://github.com/calvin-kim13/weatherForecast
 - Live Web App:
-    - hi
+    - https://calvin-kim13.github.io/weatherForecast/ 
 
