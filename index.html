@@ -23,18 +23,77 @@
             <div id="search-history"></div>
         </div>
 
-        <div class="col-9" id="current-weather">
-            <div id="current-headers">
-                <h3 id="city-location"></h3>
-                <h3 id="current-date"></h3>
-                <!-- <div><img id="current-icon" src="" alt="weather icon"></div> -->
+        <div class="col-9">
+            <div class="row current-weather">
+                <div id="current-headers">
+                    <h3 id="city-location"></h3>
+                    <h3 id="current-date"></h3>
+                </div>
+                <ul>
+                    <li id="current-temp">Temp:</li>
+                    <li id="current-wind">Wind:</li>
+                    <li id="current-humidity">Humidity:</li>
+                    <li id="uv-index">UV Index:</li>
+                </ul>
             </div>
-            <ul>
-                <li id="current-temp">Temp:</li>
-                <li id="current-wind">Wind:</li>
-                <li id="current-humidity">Humidity:</li>
-                <li id="uv-index">UV Index:</li>
-            </ul>
+            <div class="row">
+                <div><h4>5-Day Forecast</h4></div>
+                <div class="card" style="width: 12rem;">
+                    <div class="card-body">
+                      <h5 id="card-date-1"></h5>
+                      <h6 class="card-subtitle mb-2 text-muted" id="card-icon-1"></h6>
+                      <ul>
+                          <li id="card-temp-1"></li>
+                          <li id="card-wind-1"></li>
+                          <li id="card-humidity-1"></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;">
+                    <div class="card-body">
+                      <h5 id="card-date-2"></h5>
+                      <h6 class="card-subtitle mb-2 text-muted" id="card-icon-2"></h6>
+                      <ul>
+                          <li id="card-temp-2"></li>
+                          <li id="card-wind-2"></li>
+                          <li id="card-humidity-2"></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;">
+                    <div class="card-body">
+                      <h5 id="card-date-3"></h5>
+                      <h6 class="card-subtitle mb-2 text-muted" id="card-icon-3"></h6>
+                      <ul>
+                          <li id="card-temp-3"></li>
+                          <li id="card-wind-3"></li>
+                          <li id="card-humidity-3"></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;">
+                    <div class="card-body">
+                      <h5 id="card-date-4"></h5>
+                      <h6 class="card-subtitle mb-2 text-muted" id="card-icon-4"></h6>
+                      <ul>
+                          <li id="card-temp-4"></li>
+                          <li id="card-wind-4"></li>
+                          <li id="card-humidity-4"></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;">
+                    <div class="card-body">
+                      <h5 id="card-date-5"></h5>
+                      <h6 class="card-subtitle mb-2 text-muted" id="card-icon-5"></h6>
+                      <ul>
+                          <li id="card-temp-5"></li>
+                          <li id="card-wind-5"></li>
+                          <li id="card-humidity-5"></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
